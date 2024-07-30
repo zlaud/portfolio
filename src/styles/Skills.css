@@ -1,0 +1,42 @@
+.skillList h2 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 15px 5px;
+  color: #66534c;
+}
+
+ul {
+  list-style: none;
+}
+.skills li {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #f6c0ae;
+  color: #66534c;
+  border: 1px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.category {
+  border: 1px;
+  background-color: rgba(249, 200, 183, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.slick-slide > div {
+  margin: 0px 30px;
+}
+.slick-arrow.slick-prev:before {
+  color: #66534c;
+}
+.slick-arrow.slick-next:before {
+  color: #66534c;
+}

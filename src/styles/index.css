@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, sans-serif;
+  color: #66534c;
+  background-image: radial-gradient(
+    circle,
+    #fbecd5,
+    #faefd9,
+    #f9f1de,
+    #f8f4e2,
+    #f8f6e7
+  );
+}
+
+a {
+  font-weight: 500;
+  color: #704c49;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #cd776b;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  margin: 0;
+}
+
+h2 {
+  color: #cd776b;
+}
