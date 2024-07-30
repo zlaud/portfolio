@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Right.css";
 import Skill from "./Skill";
+import Projects from "./Projects";
 
 const Right = () => {
   return (
@@ -12,6 +13,7 @@ const Right = () => {
       </section>
       <section className="projects" id="projects">
         <h1>Projects</h1>
+        <Projects />
         <p></p>
       </section>
     </div>
